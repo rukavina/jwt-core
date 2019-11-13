@@ -117,7 +117,7 @@ class RSAKey
         return $this->public_exponent;
     }
 
-    public function getPrivateExponent(): ?BigInteger
+    public function getPrivateExponent(): BigInteger
     {
         return $this->private_exponent;
     }
@@ -138,7 +138,7 @@ class RSAKey
         return $this->exponents;
     }
 
-    public function getCoefficient(): ?BigInteger
+    public function getCoefficient(): BigInteger
     {
         return $this->coefficient;
     }
